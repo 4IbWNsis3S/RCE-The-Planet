@@ -13,4 +13,4 @@ hard = uninitialized-variable and double-free with full stack protections, force
 
 impossibru = rust double-free
 
-No drivers because of signing and other annoyances on modern Windows OS. This only loses us a couple of interesting protections from Windows 10.
+No drivers because of signing and other annoyances on modern Windows OS(mostly too lazy to setup and test with WDK or FASM and WinDBG. This only loses us a couple of interesting protections from Windows 10.
