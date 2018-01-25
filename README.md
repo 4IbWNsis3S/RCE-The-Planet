@@ -9,6 +9,8 @@ easy = stack and heap overflows with no protections
 
 medium = stack and heap overflows with full stack protections, forced ASLR, and NX
 
-hard = uninitialized-variable and double-free with full stack protections, forced ASLR, and NX(I'll add en
+hard = uninitialized-variable and double-free with full stack protections, forced ASLR, and NX
 
 impossibru = rust double-free
+
+No drivers because of signing and other annoyances on modern Windows OS. This only loses us a couple of interesting protections from Windows 10.
